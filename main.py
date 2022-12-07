@@ -6,4 +6,4 @@ num_1 = int(input("Enter an integer: "))
 num_2 = int(input("How many facts do you want? "))
 print("")
 for x in range(num_2):
-    print(x + 1, "X", num_1, "=", (x + 1) * num_1)
+    print(x + 1, "X", num_1,"=", (x + 1) * abs (num_1))
